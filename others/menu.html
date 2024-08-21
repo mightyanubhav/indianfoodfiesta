@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Food Fiesta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .menu-section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-section h2 {
+            margin-bottom: 15px;
+            color: #f57c00;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Indian Food Fiesta</h1>
+    </header>
+
+    <section class="menu-section">
+        <h2>Veg Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <span>Puff Pastry (/ ps)</span>
+                <span>0.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Veg Pakoda (4 ps)</span>
+                <span>2.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Onion Pakoda (4 ps)</span>
+                <span>1.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chilli Pakoda (6 ps)</span>
+                <span>1.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Aloo Bonda (4 ps)</span>
+                <span>2.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Samosa (/ ps)</span>
+                <span>1.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Matar Kachodi (/ ps)</span>
+                <span>1.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Pyaz Kachodi (/ ps)</span>
+                <span>1.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Aloo Vada & Ghoogni</span>
+                <span>2.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Pani Poori (5 ps)</span>
+                <span>2.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Pav Bhaji (/ ps)</span>
+                <span>3.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Gobi Manchian</span>
+                <span>2.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Sabudana Pakoda (3 ps)</span>
+                <span>2.45€</span>
+            </div>
+            <div class="menu-item">
+                <span>Aloo Tikki (/ ps)</span>
+                <span>0.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Samosa Chaat</span>
+                <span>3.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Aloo Chaat</span>
+                <span>2.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Ghoogni Chaat</span>
+                <span>2.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Dahi Bhalla (3 ps)</span>
+                <span>2.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Vada & Ghoogni (4 ps)</span>
+                <span>2.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Crispy Corn Manchurian</span>
+                <span>3.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Paneer Kathe Roll</span>
+                <span>3.99€</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <h2>Non-Veg Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <span>Egg Biriyani</span>
+                <span>9.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Bengal Style Biriyani</span>
+                <span>9.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken Biriyani & Raita</span>
+                <span>10.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Prawn Biriyani</span>
+                <span>12.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Mutton Biriyani</span>
+                <span>12.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Muglai Paratha</span>
+                <span>3.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken-Keema Paratha</span>
+                <span>4.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Egg Roll</span>
+                <span>3.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Egg-Chicken Roll</span>
+                <span>5.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Egg Curry</span>
+                <span>4.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken Curry & Potato</span>
+                <span>5.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Mutton Curry & Potato</span>
+                <span>6.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Mutton Kasa</span>
+                <span>6.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken Kadahi</span>
+                <span>6.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken Jalfrezi</span>
+                <span>6.49€</span>
+            </div>
+            <div class="menu-item">
+                <span>Butter-Chicken</span>
+                <span>7.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken-tikka Masala</span>
+                <span>7.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Dahi-Chicken</span>
+                <span>6.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken-Korma</span>
+                <span>6.99€</span>
+            </div>
+            <div class="menu-item">
+                <span>Afghani-Chicken</span>
+                <span>6.99€</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Indian Food Fiesta. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

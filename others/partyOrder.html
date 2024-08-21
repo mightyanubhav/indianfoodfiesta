@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Order</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* linear-gradient(to right,#7E5F31 , #EFE899); */
+      }
+      #wrapper {
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: linear-gradient(to right, rgb(14, 14, 14), #303030);
+        color: #e0d78c;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+      }
+      .container {
+        width: 100%;
+        display: flex;
+        /* height: 100% */
+        justify-content: center;
+        /* align-items: center; */
+      }
+
+      .table {
+        /* border: 2px solid #E0D78C; */
+        border-radius: 5px;
+        row-gap: 5px;
+        width: 70%;
+        border-spacing: 8px;
+      }
+      @media (max-width: 600px) {
+        .table {
+          width: 90%;
+        }
+      }
+      tr,
+      td {
+        border: 2px solid #e0d78c;
+        border-radius: 20px;
+        padding: 4px;
+      }
+      li {
+        list-style-type: none;
+        padding-left: 1em;
+      }
+      .row {
+        /* padding: 1em; */
+      }
+      .gradient {
+        font-size: 4rem;
+        padding-left: 17px;
+        /* Set the background of 
+    the text  */
+        background: linear-gradient(to right, #7e5f31, #efe899);
+        display: inline-block;
+
+        /* Clip the background upto 
+    the text  */
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        /* Set the color of the text 
+    to transparent  */
+        color: transparent;
+      }
+      .menu {
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h3 class="gradient">Indian Food Fiesta</h3>
+      <div class="container">
+        <table class="table">
+          <tr class="row">
+            <td>
+              <li class="menu">Menu 1</li>
+              <li>Pyaz pakoda</li>
+              <li>Daal Fry</li>
+              <li>Allo Gobi Sabji</li>
+              <li>Plain Kulcha</li>
+            </td>
+            <td>11 euros</td>
+          </tr>
+          <tr class="row">
+            <td>
+              <li class="menu">Menu 2</li>
+              <li>Chilli Pakoda / Gobi Pakoda</li>
+              <li>Chole</li>
+              <li>Mix Veg with Paneer</li>
+              <li>Plain Kulcha</li>
+              <li>Jeera Rice</li>
+            </td>
+            <td>12 euros</td>
+          </tr>
+          <tr class="row">
+            <td>
+              <li class="menu">Menu 3</li>
+              <li>Chilli Pakoda / Gobi Pakoda</li>
+              <li>Chole</li>
+              <li>Palak/Matar Paneer</li>
+              <li>Plain Kulcha</li>
+              <li>Jeera Rice</li>
+            </td>
+            <td>13 euros</td>
+          </tr>
+          <tr class="row">
+            <td>
+              <li class="menu">Menu 4</li>
+              <li>Chilli Fry</li>
+              <li>Veg Fried Rice</li>
+              <li>Veg Manchurian</li>
+              <li>Hakka Noodles</li>
+            </td>
+            <td>13 euros</td>
+          </tr>
+          <tr class="row">
+            <td>
+              <li class="menu">Menu 5</li>
+              <li>Veg Samosa / Chilli Pakoda</li>
+              <li>Daal Tadka</li>
+              <li>Matar Paneer</li>
+              <li>Mix-Veg / Allo gobi Masala</li>
+              <li>Plain Rice</li>
+              <li>Plain Naan</li>
+            </td>
+            <td>14 euros</td>
+          </tr>
+          <tr class="row">
+            <td>
+              <li class="menu">Menu 6</li>
+              <li>Veg Samosa / Chilli Pakoda</li>
+              <li>Daal Tadka</li>
+              <li>Paneer Jhalfrezi / Paneer Dish</li>
+              <li>Mix-Veg / Allo gobi Masala</li>
+              <li>Ghee Rice</li>
+              <li>Garlic Naan</li>
+            </td>
+            <td>15 euros</td>
+          </tr>
+          <tr>
+            <th>The following prices are only possible after 25 plates</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
